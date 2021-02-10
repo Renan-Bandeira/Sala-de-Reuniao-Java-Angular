@@ -1,4 +1,4 @@
-package com.github.RenanBandeira.saladereuniao;
+package com.github.RenanBandeira.saladereuniao.saladereuniao;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
