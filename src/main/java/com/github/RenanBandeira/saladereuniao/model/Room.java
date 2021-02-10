@@ -1,4 +1,4 @@
-package com.github.RenanBandeira.saladereuniao.saladereuniao.model;
+package com.github.RenanBandeira.saladereuniao.model;
 
 
 import javax.persistence.*;

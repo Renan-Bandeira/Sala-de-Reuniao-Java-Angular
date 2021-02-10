@@ -1,4 +1,4 @@
-package com.github.RenanBandeira.saladereuniao.saladereuniao.execption;
+package com.github.RenanBandeira.saladereuniao.execption;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,9 +1,9 @@
-package com.github.RenanBandeira.saladereuniao.saladereuniao.controller;
+package com.github.RenanBandeira.saladereuniao.controller;
 
 
-import com.github.RenanBandeira.saladereuniao.saladereuniao.execption.ResourceNotFoundException;
-import com.github.RenanBandeira.saladereuniao.saladereuniao.model.Room;
-import com.github.RenanBandeira.saladereuniao.saladereuniao.repository.RoomRepository;
+import com.github.RenanBandeira.saladereuniao.execption.ResourceNotFoundException;
+import com.github.RenanBandeira.saladereuniao.model.Room;
+import com.github.RenanBandeira.saladereuniao.repository.RoomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.github.RenanBandeira.saladereuniao.saladereuniao;
+package com.github.RenanBandeira.saladereuniao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

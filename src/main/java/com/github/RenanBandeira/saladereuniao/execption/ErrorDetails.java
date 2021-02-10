@@ -1,4 +1,4 @@
-package com.github.RenanBandeira.saladereuniao.saladereuniao.execption;
+package com.github.RenanBandeira.saladereuniao.execption;
 
 import java.util.Date;
 

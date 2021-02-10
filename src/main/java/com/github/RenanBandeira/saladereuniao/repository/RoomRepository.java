@@ -1,6 +1,6 @@
-package com.github.RenanBandeira.saladereuniao.saladereuniao.repository;
+package com.github.RenanBandeira.saladereuniao.repository;
 
-import com.github.RenanBandeira.saladereuniao.saladereuniao.model.Room;
+import com.github.RenanBandeira.saladereuniao.model.Room;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
