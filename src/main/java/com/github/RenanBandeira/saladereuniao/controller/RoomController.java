@@ -51,14 +51,14 @@ public class RoomController {
 
         room.setName(roomDetails.getName());
         room.setDate(roomDetails.getDate());
-        room.setStarHour(roomDetails.getStarHour());
+        room.setStartHour(roomDetails.getStartHour());
         room.setEndHour(roomDetails.getEndHour());
         Room roomUpdate = roomRepository.save(room);
 
         return ResponseEntity.ok(roomUpdate);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/rooms/{id}")
     public Map<String, Boolean>  deleteRoom(@PathVariable Long id) throws ResourceNotFoundException{
 
         Room room = roomRepository.findById(id)

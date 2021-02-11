@@ -10,18 +10,18 @@ public class Room {
     private long id;
     private String name;
     private String date;
-    private String starHour;
+    private String startHour;
     private String endHour;
 
     public Room() {
 
     }
 
-    public Room(long id, String name, String date, String starHour, String endHour) {
+    public Room(long id, String name, String date, String startHour, String endHour) {
         this.id = id;
         this.name = name;
         this.date = date;
-        this.starHour = starHour;
+        this.startHour = startHour;
         this.endHour = endHour;
     }
 
@@ -56,17 +56,17 @@ public class Room {
         this.date = date;
     }
 
-    @Column(name="starhour", nullable = false)
-    public String getStarHour() {
-        return starHour;
+    @Column(name="starHour", nullable = false)
+    public String getStartHour() {
+        return startHour;
     }
 
 
-    public void setStarHour(String starHour) {
-        this.starHour = starHour;
+    public void setStartHour(String startHour) {
+        this.startHour = startHour;
     }
 
-    @Column(name="endhour", nullable = false)
+    @Column(name="endHour", nullable = false)
     public String getEndHour() {
         return endHour;
     }
@@ -78,7 +78,7 @@ public class Room {
 
 @Override
     public String toString(){
-        return "room [id="+id+",name="+name+",starthour="+starHour+",endhour="+endHour+"]";
+        return "room [id="+id+",name="+name+",startHour="+ startHour +",endHour="+endHour+"]";
 }
 
 }
